@@ -22,7 +22,7 @@ const Calculator = () => {
 
   function dragOverHandler(e: React.DragEvent<HTMLDivElement>) {
     e.preventDefault()
-    e.currentTarget.style.backgroundColor = '#F0F9FF'
+    if (!canvasArray.length) e.currentTarget.style.backgroundColor = '#F0F9FF'
   }
 
   function dragEndHandler(e: React.DragEvent<HTMLDivElement>, element: () => JSX.Element) {
