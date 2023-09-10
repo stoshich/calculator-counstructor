@@ -5,6 +5,7 @@ import classes from './DisplayComponent.module.css'
 const DisplayComponent = () => {
   return (
     <div className={classes.disp}>
+      <Display />
     </div>
   )
 }
