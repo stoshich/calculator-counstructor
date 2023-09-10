@@ -8,7 +8,7 @@ interface ButtonProps {
 
 const Button: FC<ButtonProps> = ({ value, filled }) => {
   return (
-    <div className={filled ? classes.btnEquals : classes.btn}>{value}</div>
+    <div className={filled ? classes.btnEquals : classes.btn}>{"value"}</div>
   )
 }
 
