@@ -6,6 +6,9 @@ const DisplayComponent = () => {
   return (
     <div className={classes.disp}>
       <Display />
+      <Display />
+      <Display />
+      <Display />
     </div>
   )
 }
