@@ -11,6 +11,10 @@ const NumbersComponent = () => {
       {numbers.map(number => (
         <div key={number} className={classes.item}>
           <Button value={number} />
+          <Button value={number} />
+          <Button value={number} />
+          <Button value={number} />
+          <Button value={number} />
         </div>
       ))}
     </div>
