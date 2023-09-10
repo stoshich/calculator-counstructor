@@ -50,7 +50,7 @@ const Calculator = () => {
             onDragEnd={(e) => dragEndHandler(e, component)}
           >
             {component()}
-            asdasdasdasdada
+            asdasdasdasdadajshbjhsdjhbsdjbfds
           </div>
         )}
       </div>
